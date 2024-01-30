@@ -58,7 +58,7 @@ const myToken = jwt.sign(user, SECRET);
 
 View the new token in the decoder.
 
-The "iat" field is the time the token was created. We can now create a token with an expiration date.
+The "iat" field is the time the token was created. We can create a tokens with an expiration date as a security measure.
 
 <!-- prettier-ignore -->
 ```js
@@ -67,6 +67,7 @@ console.log(myToken);
 ```
 
 When viewing the token in the decoder we can see that the "exp" field is added. After the expiration date the token will no longer work on our service.
+Try to create a token with a shorter expiration date, and try to use it before and after the expiration time. (example: "1m" for 1 minute)
 
 ## Verify
 
