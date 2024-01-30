@@ -195,7 +195,7 @@ app.get("/data", (req, res) => {
 
 - Create a route that deletes an item from the mock database. This route should require a valid token.
 
-- Create a route that only lets users delete data they have created.
+- Update the delete route to only allow users to delete their own items.
 
 ### Extra
 
