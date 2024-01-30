@@ -122,14 +122,8 @@ const DATABASE_USERS = [
 ];
 
 const DATABASE_DATA = [
-	{ 
-        id: 1,
-        content: "secret 1" 
-	},
-	{
-		id: 2,
-		content: "secret 2"
-	}
+	{ id: 1, content: "secret 1"},
+	{ id: 2, content: "secret 2"}
 ];
 ```
 
