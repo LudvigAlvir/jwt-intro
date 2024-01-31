@@ -130,7 +130,9 @@ const DATABASE_DATA = [
 
 ## Testing the API
 
-For testing the api we will use Postman. https://www.postman.com/
+For testing the api we will use Postman.
+https://www.postman.com/
+
 To consume the api with a front-end applications we will need to add CORS headers to our express app. Easiest way is to use the cors library.
 
 <!--prettier-ignore -->
